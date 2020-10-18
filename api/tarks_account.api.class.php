@@ -42,7 +42,7 @@ class TarksAccountAPIClass{
 
 
     function API_SignUpTarksAccount(){
-        APICheckAct();
+        checkAPIAct();
         $TARKS_ACCOUNT = new TarksAccountClass();
         $MEMBER_CLASS = new MemberClass();
 

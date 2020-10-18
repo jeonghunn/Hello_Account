@@ -26,7 +26,7 @@ if($auth == false) ErrorPrint("login_error", "Wrong ID or Password. Please try a
 //Sign up Account
     function API_SignUpAccount()
     {
-        APICheckAct();
+        checkAPIAct();
         $PAGE_CLASS = new PageClass();
         $ACCOUNT_CLASS = new AccountClass();
         $MEMBER_CLASS = new MemberClass();
